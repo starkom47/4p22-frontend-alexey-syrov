@@ -1,0 +1,20 @@
+body {
+    background-color: #87CEFA;
+    
+}
+h1 {
+    color: #FFFF00;
+    font-family: sans-serif;
+}
+
+.form-title {
+    text-align: center;
+}
+input, button {
+    display: block;
+}
+.form-container {
+    width: 500px;
+    margin: 0 auto;
+
+}
