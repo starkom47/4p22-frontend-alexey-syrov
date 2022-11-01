@@ -1,0 +1,214 @@
+* {
+
+    box-sizing: border-box;
+
+}
+
+body {
+
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    display: flex;
+    flex-flow: row;
+    height: calc(80 / 1440 * 100vw);
+    background: #fff;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+
+}
+
+.header__logo-1 {
+    margin-left: calc(33 / 1440 * 100vw);
+    margin-bottom: calc(12 / 1440 * 100vw);
+    margin-top: calc(18 / 1440 * 100vw);
+
+
+}
+
+.header__title {
+    font-family: 'Inter';
+    color: #787878;
+    margin-top: calc(21 / 1440 * 100vw);
+    margin-bottom: calc(15 / 1440 * 100vw);
+    margin-left: calc(30 / 1440 * 100vw);
+    font-weight: 700;
+    font-style: normal;
+    
+
+}
+
+.header__registration {
+    margin-left: calc(628 / 1440 * 100vw);
+    margin-bottom: calc(26 / 1440 * 100vw);
+    margin-top: calc(25 / 1440 * 100vw);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: calc(24 / 1440 * 100vw);
+    color: #787878;
+    text-decoration: none;
+}
+
+.header__entering {
+
+    margin-left: calc(20 / 1440 * 100vw);
+    margin-top: calc(25 / 1440 * 100vw);
+    margin-bottom: calc(26 / 1440 * 100vw);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: calc(24 / 1440 * 100vw);
+    color: #1A226B;
+    text-decoration: none;
+}
+
+.cardentry {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: calc(205 / 1440 * 100vw);
+    left: calc(403 / 1440 * 100vw);
+    width: calc(600 / 1440 * 100vw);
+    height: calc(383 / 1440 * 100vw);
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 40px 10px rgb(0 0 0 / 25%);
+    margin: auto;
+    font-family: 'Roboto';
+}
+
+.cardentry__title {
+    display: flex;
+    position: absolute;
+    top: calc(26 / 1440 * 100vw);
+    left: calc(242 / 1440 * 100vw);
+    right: calc(243 / 1440 * 100vw);
+    font-weight: 700;
+    font-size: calc(50 / 1440 * 100vw);;
+    line-height: calc(50 / 1440 * 100vw);
+    color: rgba(120, 120, 120, 1);
+    caret-color: transparent;
+}
+
+.cardentry__enter {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.card__email {
+
+    position: absolute;
+    display: flex;
+    top: calc(112 / 1440 * 100vw);
+    width: calc(510 / 1440 * 100vw);
+    left: calc(45 / 1440 * 100vw);
+    height: calc(49 / 1440 * 100vw);
+    border: 1px solid rgba(120, 120, 120, 1);
+    padding-left: calc(15 / 1440 * 100vw);
+    
+}
+
+.card__email input {
+    border: none;
+    border-radius: 0;
+    outline: none;
+    padding: 0;
+    font-size: calc(28 / 1440 * 100vw);
+    font-weight: 700;
+    line-height: calc(36 / 1440 * 100vw);
+    color: #787878;
+    
+}
+
+.card__email input::placeholder {
+    color: #CCCCCC;
+    font-weight: 700;
+}
+
+.card__email label {
+    font-weight: 700;
+    position: absolute;
+    opacity: 1;
+    transition: 0.15s;
+    caret-color: transparent;
+    left: calc(9 / 1440 * 100vw);
+    top: calc(-19 / 1440 * 100vw);
+    color: rgba(120, 120, 120, 1);
+   
+
+
+}
+
+.card__password {
+    display: flex;
+    position: absolute;
+    top: calc(193 / 1440 * 100vw);
+    left: calc(45 / 1440 * 100vw);
+    width: calc(510 / 1440 * 100vw);
+    height: calc(49 / 1440 * 100vw);
+    border: 1px solid #787878;
+    padding-left: calc(15 / 1440 * 100vw);
+}
+
+.card__password input {
+    border: none;
+    border-radius: 0;
+    outline: none;
+    padding: 0;
+    font-size: calc(28 / 1440 * 100vw);
+    font-weight: 700;
+    line-height: calc(36 / 1440 * 100vw);
+    color: #787878;
+}
+
+.card__password input::placeholder {
+
+    color: #CCCCCC;
+    font-weight: 700;
+
+
+}
+
+.card__password label {
+    font-weight: 700;
+    position: absolute;
+    left: calc(8 / 1440 * 100vw);
+    top: calc(-20 / 1440 * 100vw);
+    opacity: 1;
+    transition: 0.15s;
+    caret-color: transparent;
+    color: rgba(120, 120, 120, 1);
+
+}
+
+.card__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: calc(294 / 1440 * 100vw);
+    left: calc(210 / 1440 * 100vw);
+    width: calc(180 / 1440 * 100vw);
+    height: calc(52 / 1440 * 100vw);
+    border: none;
+    background-color: rgba(26, 34, 107, 1);
+    font-size: calc(24 / 1440 * 100vw);
+    text-align: center;
+    line-height: calc(16 / 1440 * 100vw);
+    font-weight: 700;
+    color: #fff;
+    caret-color: transparent;
+    cursor: pointer;
+}
+
+.card__password-repeat {
+
+    
+}

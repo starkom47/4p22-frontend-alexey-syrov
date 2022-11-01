@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="styles/style2.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <img src="img/20489b6c748377c7f19e0e60473af7ab.png" class="header__logo-1" alt="InnopolisUniversity">
+        <h1 class="header__title">PCS Frontend</h1>
+        <a class="header__registration" href="#">Регистрация</a>
+        <a class="header__entering" href="#">Вход</a>
+
+    </header>
+    <div class="cardentry">
+        <div class="cardentry__title">
+            <h1 class="cardentry__enter">Вход</h1>
+        </div>
+
+        <form class="card" action="#">
+
+            <div class="card__email">
+                <input type="email" id="e-mail" name="email" placeholder="Введите email" autocomplete="off">
+                <label for="email">Email</label>
+            </div>
+
+            <div class="card__password">
+                <input type="password" id="password" name="password" placeholder="Введите пароль" autocomplete="off">
+                <label for="password">Пароль</label>
+            </div>
+
+            <div class="card__repeat-password">
+                <input type="password" id="repeat" name="repeat" placeholder="Подтвердите пароль" autocomplete="off">
+                <label for="repeat">Подтверждение пароля</label> 
+            </div>
+
+            <div class="container__check-position">
+                <p class="container__label">Пол</p></div>
+                
+                
+                <!--<input class="box-form__hidden-check1" id="radio-1" type="radio" name="gender">
+                <label class="box-form__label-wouman box-form__label-man" for="radio-1" value="wouman">Женщина</label>
+               <input class="box-form__hidden-check2" id="radio-2" type="radio" name="gender">
+               <label class="box-form__label-wouman box-form__label-man" for="radio-2" value="man">Мужчина</label> -->
+
+        <div class="form-group-1">
+            <label class="form__man">
+                <input class="form__man-input" type="radio" name="man" value="man"> 
+                <span class="custom-radio"></span>
+                Мужчина
+            </label>
+        <div class="form-group-2">
+            <label>
+                <input class="form__wmn-input" type="radio" name="man" value="wouman">
+                <span class="custom-radio"></span>
+                Женщина
+            </label> 
+        </div>
+
+            <p class="container__label-about">О себе</p>
+            <textarea class="container__form-about" placeholder="Расскажите о себе..." id="textarea" name="textarea"></textarea>
+            
+            <div class="checkbox__container">
+                <label> 
+            <input class="realcheckbox__container-agree" type="checkbox" name="checkbox-agree">
+            <span class="custom-checkbox"></span>
+            Я согласен получать обновления на почту
+                </label>
+            </div>
+            
+
+            <button class="card__button">Регистрация</button>
+        </form>
+    </div>
+
+
+</body>
+
+</html>
