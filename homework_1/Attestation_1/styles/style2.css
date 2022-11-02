@@ -47,7 +47,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: calc(24 / 1440 * 100vw);
-  color: #787878;
+  color: #1a226b;
   text-decoration: none;
 }
 
@@ -60,7 +60,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: calc(24 / 1440 * 100vw);
-  color: #1a226b;
+  color: #787878;
   text-decoration: none;
   margin-right: 43px;
 }
@@ -273,8 +273,6 @@ body {
   left: calc(20 / 1440 * 100vw);
 }
 
-.box-form__label-wouman {
-}
 
 .form-group-1 {
   top: calc(357 / 1440 * 100vw);
@@ -411,7 +409,7 @@ textarea::placeholder {
     
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
 
 .header {
     height: calc(80 / 768 * 100vw);
@@ -422,9 +420,10 @@ textarea::placeholder {
 
 .header__logo-1 {
     margin-left: calc(20 / 768 * 100vw);
-    margin-bottom: calc(12 / 768 * 100vw);
-    margin-top: calc(18 / 768* 100vw);
-    width: calc(124 / 768 * 100vw);
+    margin-bottom: calc(30 / 768 * 100vw);
+    margin-top: calc(25 / 768* 100vw);
+    width: calc(125 / 768 * 100vw);
+    height: calc(25 / 768 * 100vw);
 }
     
 
@@ -432,7 +431,6 @@ textarea::placeholder {
    
   
   font-size: calc(24 / 768 * 100vw);
-  
   margin-top: calc(23 / 768 * 100vw);
   margin-bottom: calc(28 / 768 * 100vw);
   margin-left: calc(178 / 768 * 100vw);
@@ -455,10 +453,9 @@ textarea::placeholder {
 .header__entering {
     position: absolute;
   margin-left: calc(700 / 768 * 100vw);
-  margin-top: calc(25 / 768 * 100vw);
+  margin-top: calc(30 / 768 * 100vw);
   margin-bottom: calc(31 / 768 * 100vw);
  
-  
   font-size: calc(16 / 768 * 100vw);
   
   margin-right: calc(28 / 768 * 100vw);
@@ -467,8 +464,10 @@ textarea::placeholder {
 .cardentry {
   
   position: absolute;
+  display: flex;
   top: calc(160/ 768 * 100vw);
-  left: calc(84 768 * 100vw);
+  left: calc(84 / 768 * 100vw);
+  right: calc(84 / 768 * 100vw);
   width: calc(600 / 768 * 100vw);
   height: calc(875 / 768 * 100vw);
   
@@ -480,12 +479,12 @@ textarea::placeholder {
 .cardentry__title {
   display: flex;
   position: absolute;
-  top: calc(26 / 1440 * 100vw);
-  left: calc(242 / 1440 * 100vw);
-  right: calc(243 / 1440 * 100vw);
+  top: calc(30 / 768 * 100vw);
+  left: calc(149 / 768* 100vw);
+  right: calc(149/ 768 * 100vw);
   font-weight: 700;
-  font-size: calc(50 / 1440 * 100vw);
-  line-height: calc(50 / 1440 * 100vw);
+  font-size: calc(50 / 768 * 100vw);
+  line-height: calc(50 / 768 * 100vw);
   color: rgba(120, 120, 120, 1);
   caret-color: transparent;
 }
@@ -501,12 +500,12 @@ textarea::placeholder {
 .card__email {
   position: absolute;
   display: flex;
-  top: calc(112 / 1440 * 100vw);
-  width: calc(510 / 1440 * 100vw);
-  left: calc(45 / 1440 * 100vw);
-  height: calc(49 / 1440 * 100vw);
+  top: calc(112 / 768 * 100vw);
+  width: calc(510 / 768 * 100vw);
+  left: calc(45 / 768 * 100vw);
+  height: calc(49 / 768 * 100vw);
   border: 2px solid rgba(120, 120, 120, 1);
-  padding-left: calc(15 / 1440 * 100vw);
+  padding-left: calc(15 / 768* 100vw);
 }
 
 .card__email input {
@@ -514,9 +513,9 @@ textarea::placeholder {
   border-radius: 0;
   outline: none;
   padding: 0;
-  font-size: calc(28 / 1440 * 100vw);
+  font-size: calc(28 / 768 * 100vw);
   font-weight: 700;
-  line-height: calc(36 / 1440 * 100vw);
+  line-height: calc(36 / 768 * 100vw);
   color: #787878;
 }
 
@@ -526,25 +525,26 @@ textarea::placeholder {
 }
 
 .card__email label {
+  font-size: calc(16 / 768 * 100vw);
   font-weight: 700;
   position: absolute;
   opacity: 1;
   transition: 0.15s;
   caret-color: transparent;
-  left: calc(0 / 1440 * 100vw);
-  top: calc(-19 / 1440 * 100vw);
+  left: calc(0 / 768 * 100vw);
+  top: calc(-19 / 768 * 100vw);
   color: rgba(120, 120, 120, 1);
 }
 
 .card__password {
   display: flex;
   position: absolute;
-  top: calc(193 / 1440 * 100vw);
-  left: calc(45 / 1440 * 100vw);
-  width: calc(510 / 1440 * 100vw);
-  height: calc(49 / 1440 * 100vw);
+  top: calc(193 / 768 * 100vw);
+  left: calc(45 / 768 * 100vw);
+  width: calc(510 / 768 * 100vw);
+  height: calc(49 / 768 * 100vw);
   border: 2px solid #787878;
-  padding-left: calc(15 / 1440 * 100vw);
+  padding-left: calc(15 / 768 * 100vw);
 }
 
 .card__password input {
@@ -552,9 +552,9 @@ textarea::placeholder {
   border-radius: 0;
   outline: none;
   padding: 0;
-  font-size: calc(28 / 1440 * 100vw);
+  font-size: calc(28 / 768 * 100vw);
   font-weight: 700;
-  line-height: calc(36 / 1440 * 100vw);
+  line-height: calc(36 / 768 * 100vw);
   color: #787878;
 }
 
@@ -564,10 +564,11 @@ textarea::placeholder {
 }
 
 .card__password label {
+  font-size: calc(16 / 768 * 100vw);
   font-weight: 700;
   position: absolute;
-  left: calc(0 / 1440 * 100vw);
-  top: calc(-20 / 1440 * 100vw);
+  left: calc(0 / 768 * 100vw);
+  top: calc(-20 / 768 * 100vw);
   opacity: 1;
   transition: 0.15s;
   caret-color: transparent;
@@ -579,15 +580,15 @@ textarea::placeholder {
   align-items: center;
   justify-content: center;
   position: absolute;
-  top: calc(413 / 1440 * 100vw);
-  left: calc(160 / 1440 * 100vw);
-  width: calc(180 / 1440 * 100vw);
-  height: calc(52 / 1440 * 100vw);
+  top: calc(413 / 768 * 100vw);
+  left: calc(165 / 768 * 100vw);
+  width: calc(180 / 768 * 100vw);
+  height: calc(52 / 768 * 100vw);
   border: none;
   background-color: rgba(26, 34, 107, 1);
-  font-size: calc(24 / 1440 * 100vw);
+  font-size: calc(24 / 768 * 100vw);
   text-align: center;
-  line-height: calc(16 / 1440 * 100vw);
+  line-height: calc(16 / 768 * 100vw);
   font-weight: 700;
   color: #fff;
   caret-color: transparent;
@@ -597,12 +598,12 @@ textarea::placeholder {
 .card__repeat-password {
   position: absolute;
   display: flex;
-  top: calc(274 / 1440 * 100vw);
-  left: calc(45 / 1440 * 100vw);
-  width: calc(510 / 1440 * 100vw);
-  height: calc(49 / 1440 * 100vw);
+  top: calc(274 / 768 * 100vw);
+  left: calc(45 / 768 * 100vw);
+  width: calc(510 / 768 * 100vw);
+  height: calc(49 / 768 * 100vw);
   border: 2px solid #787878;
-  padding-left: calc(15 / 1440 * 100vw);
+  padding-left: calc(15 / 768* 100vw);
 }
 
 .card__repeat-password input {
@@ -610,17 +611,18 @@ textarea::placeholder {
   border-radius: 0;
   outline: none;
   padding: 0;
-  font-size: calc(28 / 1440 * 100vw);
+  font-size: calc(28 / 768 * 100vw);
   font-weight: 700;
-  line-height: calc(36 / 1440 * 100vw);
+  line-height: calc(36 / 768 * 100vw);
   color: #787878;
 }
 
 .card__repeat-password label {
+  font-size: calc(16 / 768 * 100vw);
   font-weight: 700;
   position: absolute;
-  left: calc(0 / 1440 * 100vw);
-  top: calc(-20 / 1440 * 100vw);
+  left: calc(0 / 768 * 100vw);
+  top: calc(-20 / 768* 100vw);
   color: rgba(120, 120, 120, 1);
 }
 
@@ -629,55 +631,72 @@ textarea::placeholder {
   font-weight: 700;
 }
 
+
+
+
 .container__check-position {
   display: flex;
   flex-direction: column;
   position: relative;
   width: 100%;
-  margin-bottom: calc(7 / 1440 * 100vw);
-  top: calc(311 / 1440 * 100vw);
-  left: calc(-243 / 1440 * 100vw);
-  padding-top: calc(11 / 1440 * 100vw);
+  margin-bottom: calc(7 / 768 * 100vw);
+  top: calc(357 / 768 * 100vw);
+  left: calc(-243 / 768 * 100vw);
+  padding-top: calc(11 / 768 * 100vw);
+  
+
+
 }
 
-.container__label {
-  margin-bottom: calc(5 / 1440 * 100vw);
-  font-weight: 700;
-  color: #787878;
-  position: absolute;
-  left: calc(-15 / 1440 * 100vw);
-  font-size: calc(16 / 1440 * 100vw);
-}
+
+
 
 .container__label-about {
-  margin-bottom: calc(5 / 1440 * 100vw);
+  margin-bottom: calc(5 / 768 * 100vw);
   font-weight: 700;
   color: #787878;
   position: absolute;
-  left: calc(0 / 1440 * 100vw);
-  font-size: calc(16 / 1440 * 100vw);
+  left: calc(0/ 768 * 100vw);
+  font-size: calc(16 / 768 * 100vw);
 }
+
+
+
+.container__form-about {
+  position: absolute;
+  top: calc(87/ 768 * 100vw);
+  left: calc(0/ 768 * 100vw);
+  width: calc(509 / 768 * 100vw);
+  height: calc(246 / 768 * 100vw);
+  font-size: calc(28 / 768 * 100vw);
+  font-weight: 700;
+  line-height: calc(36 / 768 * 100vw);
+  color: #787878;
+  font-family: "Roboto";
+  border: 2px solid rgba(120, 120, 120, 1);
+
+}
+
 
 .box-form__hidden-check1 {
   position: absolute;
-  top: calc(50 / 1440 * 100vw);
-  left: calc(20 / 1440 * 100vw);
+  top: calc(50 / 768 * 100vw);
+  left: calc(20 / 768 * 100vw);
 }
 
 .box-form__hidden-check2 {
   position: absolute;
-  top: calc(60 / 1440 * 100vw);
-  left: calc(20 / 1440 * 100vw);
+  top: calc(60 / 768 * 100vw);
+  left: calc(20 / 768 * 100vw);
 }
 
-.box-form__label-wouman {
-}
+
 
 .form-group-1 {
-  top: calc(357 / 1440 * 100vw);
-  left: calc(45 / 1440 * 100vw);
+  top: calc(357 / 768 * 100vw);
+  left: calc(45 / 768 * 100vw);
   position: absolute;
-  font-size: calc(14 / 1440 * 100vw);
+  font-size: calc(14 / 768 * 100vw);
   color: #787878;
 }
 
@@ -686,13 +705,13 @@ textarea::placeholder {
 }
 
 .form__man {
-  top: calc(355 / 1440 * 100vw);
+  top: calc(355 / 768 * 100vw);
   display: inline-block;
 }
 
 .form__man-input {
-  width: calc(0 / 1440 * 100vw);
-  height: calc(0 / 1440 * 100vw);
+  width: calc(0 / 768 * 100vw);
+  height: calc(0 / 768 * 100vw);
   position: absolute;
   z-index: -1;
 }
@@ -707,8 +726,8 @@ textarea::placeholder {
 .custom-radio {
   position: relative;
   display: inline-block;
-  width: calc(20 / 1440 * 100vw);
-  height: calc(20 / 1440 * 100vw);
+  width: calc(20 / 768 * 100vw);
+  height: calc(20 / 768 * 100vw);
 
   border: 2px solid #787878;
   border-radius: 50%;
@@ -719,8 +738,8 @@ textarea::placeholder {
 .custom-radio::before {
   content: "";
   display: inline-block;
-  width: calc(12 / 1440 * 100vw);
-  height: calc(12 / 1440 * 100vw);
+  width: calc(12 / 768 * 100vw);
+  height: calc(12 / 768 * 100vw);
   background: #787878;
   border-radius: 50%;
   position: absolute;
@@ -738,33 +757,20 @@ textarea::placeholder {
   display: block;
 }
 
-.container__form-about {
-  position: absolute;
-  top: calc(90 / 1440 * 100vw);
-  left: calc(0 / 1440 * 100vw);
-  width: calc(509 / 1440 * 100vw);
-  height: calc(246 / 1440 * 100vw);
-  font-size: calc(28 / 1440 * 100vw);
-  font-weight: 700;
-  line-height: calc(36 / 1440 * 100vw);
-  color: #787878;
-  font-family: "Roboto";
-  border: 2px solid rgba(120, 120, 120, 1);
-}
 
 textarea::placeholder {
   color: #cccccc;
   font-weight: 700;
-  font-size: calc(28 / 1440 * 100vw);
-  line-height: calc(36 / 1440 * 100vw);
+  font-size: calc(28 / 768 * 100vw);
+  line-height: calc(36 / 768 * 100vw);
   font-family: "Roboto";
 }
 
 .checkbox__container {
   position: relative;
   display: inline-block;
-  top: calc(300 / 1440 * 100vw);
-  left: calc(0 / 1440 * 100vw);
+  top: calc(300 / 768 * 100vw);
+  left: calc(0 / 768 * 100vw);
 }
 
 .checkbox__label {
@@ -781,8 +787,8 @@ textarea::placeholder {
 .custom-checkbox {
   position: relative;
   display: inline-block;
-  width: calc(24 / 1440 * 100vw);
-  height: calc(24 / 1440 * 100vw);
+  width: calc(24 / 768 * 100vw);
+  height: calc(24 / 768 * 100vw);
   border: 2px solid #787878;
   margin-right: calc(9 / 1440 * 100vw);
   vertical-align: sub;
@@ -791,8 +797,8 @@ textarea::placeholder {
 .custom-checkbox::before {
   content: '';
   display: inline-block;
-  width: calc(12 / 1440 * 100vw);
-  height: calc(12 / 1440 * 100vw);
+  width: calc(12 / 768 * 100vw);
+  height: calc(12 / 768 * 100vw);
   background: #787878;
 
   position: absolute;
@@ -808,4 +814,15 @@ textarea::placeholder {
     
 }
 
+
+.container__gender-label {
+  position: absolute;
+  margin-bottom: calc(5 / 768 * 100vw);
+  font-weight: 700;
+  color: #787878;
+  position: absolute;
+  left: calc(-10 / 768 * 100vw);
+  font-size: calc(16 / 768 * 100vw);
+  bottom: 14px;
+}
 }

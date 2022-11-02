@@ -30,11 +30,13 @@ body {
 }
 
 .header__title {
+    position: absolute;
     font-family: 'Inter';
+    font-size: calc(36 / 1440 * 100vw);
     color: #787878;
     margin-top: calc(21 / 1440 * 100vw);
     margin-bottom: calc(15 / 1440 * 100vw);
-    margin-left: calc(30 / 1440 * 100vw);
+    margin-left: calc(281/ 1440 * 100vw);
     font-weight: 700;
     font-style: normal;
     
@@ -42,7 +44,8 @@ body {
 }
 
 .header__registration {
-    margin-left: calc(628 / 1440 * 100vw);
+    position: absolute;
+    margin-left: calc(1152 / 1440 * 100vw);
     margin-bottom: calc(26 / 1440 * 100vw);
     margin-top: calc(25 / 1440 * 100vw);
     font-family: 'Inter';
@@ -54,8 +57,8 @@ body {
 }
 
 .header__entering {
-
-    margin-left: calc(20 / 1440 * 100vw);
+    position: absolute;
+    margin-left: calc(1337 / 1440 * 100vw);
     margin-top: calc(25 / 1440 * 100vw);
     margin-bottom: calc(26 / 1440 * 100vw);
     font-family: 'Inter';
@@ -110,7 +113,7 @@ body {
     width: calc(510 / 1440 * 100vw);
     left: calc(45 / 1440 * 100vw);
     height: calc(49 / 1440 * 100vw);
-    border: 1px solid rgba(120, 120, 120, 1);
+    border: 2px solid rgba(120, 120, 120, 1);
     padding-left: calc(15 / 1440 * 100vw);
     
 }
@@ -153,7 +156,7 @@ body {
     left: calc(45 / 1440 * 100vw);
     width: calc(510 / 1440 * 100vw);
     height: calc(49 / 1440 * 100vw);
-    border: 1px solid #787878;
+    border: 2px solid #787878;
     padding-left: calc(15 / 1440 * 100vw);
 }
 
@@ -189,6 +192,7 @@ body {
 }
 
 .card__button {
+    position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -208,7 +212,185 @@ body {
     cursor: pointer;
 }
 
-.card__password-repeat {
+@media screen and (max-width: 768px) {
 
+    .header {
+        height: calc(80 / 768 * 100vw);
+        width:  calc(768 / 768 * 100vw)
     
-}
+    
+    }    
+    
+    .header__logo-1 {
+        margin-left: calc(20 / 768 * 100vw);
+        margin-bottom: calc(30/ 768 * 100vw);
+        margin-top: calc(25 / 768* 100vw);
+        width: calc(124 / 768 * 100vw);
+        height: calc(25/ 768 * 100vw);
+    }
+        
+    
+    .header__title {
+       
+      
+      font-size: calc(24 / 768 * 100vw);
+      margin-top: calc(23 / 768 * 100vw);
+      margin-bottom: calc(28 / 768 * 100vw);
+      margin-left: calc(178 / 768 * 100vw);
+      
+    }
+    
+    .header__registration {
+       
+      margin-left: calc(559 / 768 * 100vw);
+      margin-bottom: calc(31 / 768 * 100vw);
+      margin-top: calc(30 / 768 * 100vw);
+      
+     
+      font-weight: 700;
+      font-size: calc(16 / 768 * 100vw);
+    }
+
+    .header__entering {
+        position: absolute;
+      margin-left: calc(700 / 768 * 100vw);
+      margin-top: calc(30 / 768 * 100vw);
+      margin-bottom: calc(31 / 768 * 100vw);
+     
+      font-size: calc(16 / 768 * 100vw);
+      
+      margin-right: calc(28 / 768 * 100vw);
+    }
+    
+    .cardentry {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: calc(205 / 768 * 100vw);
+        left: calc(84/ 768 * 100vw);
+        width: calc(600 / 768 * 100vw);
+        height: calc(383 / 768 * 100vw);
+        background-color: rgba(255, 255, 255, 1);
+        box-shadow: 0px 0px 40px 10px rgb(0 0 0 / 25%);
+        margin: auto;
+        
+    }
+
+    .cardentry__title {
+       
+        top: calc(26 / 768 * 100vw);
+        left: calc(242 / 768* 100vw);
+       
+        font-weight: 700;
+        font-size: calc(50 / 768 * 100vw);
+        line-height: calc(50 / 768 * 100vw);
+        color: rgba(120, 120, 120, 1);
+        
+      }
+
+      .card__email {
+        position: absolute;
+        display: flex;
+        top: calc(112 / 768 * 100vw);
+        width: calc(510 / 768 * 100vw);
+        left: calc(45 / 768 * 100vw);
+        height: calc(49 / 768 * 100vw);
+        border: 2px solid rgba(120, 120, 120, 1);
+        padding-left: calc(15 / 768* 100vw);
+      }
+
+      .card__email input {
+        border: none;
+        border-radius: 0;
+        outline: none;
+        padding: 0;
+        font-size: calc(28 / 768 * 100vw);
+        font-weight: 700;
+        line-height: calc(36 / 768 * 100vw);
+        color: #787878;
+      }
+
+      .card__email label {
+        font-size: calc(16 / 768 * 100vw);
+        font-weight: 700;
+        position: absolute;
+        opacity: 1;
+        transition: 0.15s;
+        caret-color: transparent;
+        left: calc(0 / 768 * 100vw);
+        top: calc(-19 / 768 * 100vw);
+        color: rgba(120, 120, 120, 1);
+      }
+
+      .card__password {
+        display: flex;
+        position: absolute;
+        top: calc(193 / 768 * 100vw);
+        left: calc(45 / 768 * 100vw);
+        width: calc(510 / 768 * 100vw);
+        height: calc(49 / 768 * 100vw);
+        border: 2px solid #787878;
+        padding-left: calc(15 / 768 * 100vw);
+      }
+
+      .card__password input {
+        border: none;
+        border-radius: 0;
+        outline: none;
+        padding: 0;
+        font-size: calc(28 / 768 * 100vw);
+        font-weight: 700;
+        line-height: calc(36 / 768 * 100vw);
+        color: #787878;
+      }
+      
+      .card__password label {
+        font-size: calc(16 / 768 * 100vw);
+        font-weight: 700;
+        position: absolute;
+        left: calc(0 / 768 * 100vw);
+        top: calc(-20 / 768 * 100vw);
+        opacity: 1;
+        transition: 0.15s;
+        caret-color: transparent;
+        color: rgba(120, 120, 120, 1);
+      }
+    
+      .card__button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: calc(294 / 768 * 100vw);
+        left: calc(210 / 768 * 100vw);
+        width: calc(180 / 768 * 100vw);
+        height: calc(52 / 768 * 100vw);
+        border: none;
+        background-color: rgba(26, 34, 107, 1);
+        font-size: calc(24 / 768 * 100vw);
+        text-align: center;
+        line-height: calc(16 / 768 * 100vw);
+        font-weight: 700;
+        color: #fff;
+        caret-color: transparent;
+        cursor: pointer;
+      }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    }
+
