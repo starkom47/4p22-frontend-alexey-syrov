@@ -299,7 +299,7 @@ body {
 }
 
 .form-group-2 {
-  padding-top: 13px;
+  padding-top: calc(13 / 1440 * 100vw);
 }
 
 .form__man {
@@ -717,7 +717,7 @@ textarea::placeholder {
 }
 
 .form-group-2 {
-  padding-top: 13px;
+  padding-top: calc(13 / 768 * 100vw);
 }
 
 .form__man {
