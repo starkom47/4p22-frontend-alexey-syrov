@@ -84,7 +84,7 @@ body {
   display: flex;
   position: absolute;
   top: calc(26 / 1440 * 100vw);
-  left: calc(242 / 1440 * 100vw);
+  left: calc(149 / 1440 * 100vw);
   right: calc(243 / 1440 * 100vw);
   font-weight: 700;
   font-size: calc(50 / 1440 * 100vw);
@@ -108,7 +108,7 @@ body {
   width: calc(510 / 1440 * 100vw);
   left: calc(45 / 1440 * 100vw);
   height: calc(49 / 1440 * 100vw);
-  border: 2px solid rgba(120, 120, 120, 1);
+  border: calc(2 / 1440 * 100vw) solid #787878;
   padding-left: calc(15 / 1440 * 100vw);
 }
 
@@ -129,6 +129,7 @@ body {
 }
 
 .card__email label {
+  font-size: calc(16 / 1440 * 100vw);
   font-weight: 700;
   position: absolute;
   opacity: 1;
@@ -146,7 +147,7 @@ body {
   left: calc(45 / 1440 * 100vw);
   width: calc(510 / 1440 * 100vw);
   height: calc(49 / 1440 * 100vw);
-  border: 2px solid #787878;
+  border: calc(2 / 1440 * 100vw) solid #787878;
   padding-left: calc(15 / 1440 * 100vw);
 }
 
@@ -167,6 +168,7 @@ body {
 }
 
 .card__password label {
+  font-size: calc(16 / 1440 * 100vw);
   font-weight: 700;
   position: absolute;
   left: calc(0 / 1440 * 100vw);
@@ -204,7 +206,7 @@ body {
   left: calc(45 / 1440 * 100vw);
   width: calc(510 / 1440 * 100vw);
   height: calc(49 / 1440 * 100vw);
-  border: 2px solid #787878;
+  border: calc(2 / 1440 * 100vw) solid #787878;
   padding-left: calc(15 / 1440 * 100vw);
 }
 
@@ -220,6 +222,7 @@ body {
 }
 
 .card__repeat-password label {
+  font-size: calc(16 / 1440 * 100vw);
   font-weight: 700;
   position: absolute;
   left: calc(0 / 1440 * 100vw);
@@ -233,6 +236,7 @@ body {
 }
 
 .container__check-position {
+  font-size: calc(16 / 1440 * 100vw);
   display: flex;
   flex-direction: column;
   position: relative;
@@ -241,6 +245,17 @@ body {
   top: calc(311 / 1440 * 100vw);
   left: calc(-243 / 1440 * 100vw);
   padding-top: calc(11 / 1440 * 100vw);
+}
+
+
+.container__gender-label {
+ top: calc(10 / 1440 * 100vw);
+  font-weight: 700;
+  color: #787878;
+  position: absolute;
+  left: calc(-10 / 1440 * 100vw);
+  font-size: calc(16 / 1440 * 100vw);
+  
 }
 
 .container__label {
@@ -259,6 +274,7 @@ body {
   position: absolute;
   left: calc(0 / 1440 * 100vw);
   font-size: calc(16 / 1440 * 100vw);
+  top: calc(50 /1440 * 100vw);
 }
 
 .box-form__hidden-check1 {
@@ -311,7 +327,7 @@ body {
   width: calc(20 / 1440 * 100vw);
   height: calc(20 / 1440 * 100vw);
 
-  border: 2px solid #787878;
+  border: calc(2 / 1440 * 100vw) solid #787878;
   border-radius: 50%;
   margin-right: calc(9 / 1440 * 100vw);
   vertical-align: text-top;
@@ -350,7 +366,7 @@ body {
   line-height: calc(36 / 1440 * 100vw);
   color: #787878;
   font-family: "Roboto";
-  border: 2px solid rgba(120, 120, 120, 1);
+  border: calc(2 / 1440 * 100vw) solid #787878; 
 }
 
 textarea::placeholder {
@@ -384,7 +400,7 @@ textarea::placeholder {
   display: inline-block;
   width: calc(24 / 1440 * 100vw);
   height: calc(24 / 1440 * 100vw);
-  border: 2px solid #787878;
+  border: calc(2 / 1440 * 100vw) solid #787878;
   margin-right: calc(9 / 1440 * 100vw);
   vertical-align: sub;
 }
@@ -504,7 +520,7 @@ textarea::placeholder {
   width: calc(510 / 768 * 100vw);
   left: calc(45 / 768 * 100vw);
   height: calc(49 / 768 * 100vw);
-  border: 2px solid rgba(120, 120, 120, 1);
+  border: calc(2 / 768 * 100vw) solid #787878;
   padding-left: calc(15 / 768* 100vw);
 }
 
@@ -543,7 +559,7 @@ textarea::placeholder {
   left: calc(45 / 768 * 100vw);
   width: calc(510 / 768 * 100vw);
   height: calc(49 / 768 * 100vw);
-  border: 2px solid #787878;
+  border: calc(2 / 768 * 100vw) solid #787878;
   padding-left: calc(15 / 768 * 100vw);
 }
 
@@ -602,7 +618,7 @@ textarea::placeholder {
   left: calc(45 / 768 * 100vw);
   width: calc(510 / 768 * 100vw);
   height: calc(49 / 768 * 100vw);
-  border: 2px solid #787878;
+  border: calc(2 / 768 * 100vw) solid #787878;
   padding-left: calc(15 / 768* 100vw);
 }
 
@@ -656,8 +672,9 @@ textarea::placeholder {
   font-weight: 700;
   color: #787878;
   position: absolute;
-  left: calc(0/ 768 * 100vw);
+  left: calc(0 / 768 * 100vw);
   font-size: calc(16 / 768 * 100vw);
+  top: calc(50 / 768 * 100vw);
 }
 
 
@@ -673,8 +690,7 @@ textarea::placeholder {
   line-height: calc(36 / 768 * 100vw);
   color: #787878;
   font-family: "Roboto";
-  border: 2px solid rgba(120, 120, 120, 1);
-
+  border: calc(2 / 768 * 100vw) solid #787878;
 }
 
 
@@ -729,7 +745,7 @@ textarea::placeholder {
   width: calc(20 / 768 * 100vw);
   height: calc(20 / 768 * 100vw);
 
-  border: 2px solid #787878;
+  border: calc(2 / 768 * 100vw) solid #787878;
   border-radius: 50%;
   margin-right: calc(9 / 1440 * 100vw);
   vertical-align: text-top;
@@ -789,7 +805,7 @@ textarea::placeholder {
   display: inline-block;
   width: calc(24 / 768 * 100vw);
   height: calc(24 / 768 * 100vw);
-  border: 2px solid #787878;
+  border: calc(2 / 768 * 100vw) solid #787878;
   margin-right: calc(9 / 1440 * 100vw);
   vertical-align: sub;
 }
@@ -816,13 +832,14 @@ textarea::placeholder {
 
 
 .container__gender-label {
-  position: absolute;
-  margin-bottom: calc(5 / 768 * 100vw);
+  
+  top: calc(-40 / 768 * 100vw);
   font-weight: 700;
   color: #787878;
   position: absolute;
   left: calc(-10 / 768 * 100vw);
   font-size: calc(16 / 768 * 100vw);
-  bottom: 14px;
+  
 }
+
 }

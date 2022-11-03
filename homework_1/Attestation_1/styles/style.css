@@ -113,7 +113,7 @@ body {
     width: calc(510 / 1440 * 100vw);
     left: calc(45 / 1440 * 100vw);
     height: calc(49 / 1440 * 100vw);
-    border: 2px solid rgba(120, 120, 120, 1);
+    border: calc(2 / 1440 * 100vw) solid #787878;
     padding-left: calc(15 / 1440 * 100vw);
     
 }
@@ -136,6 +136,7 @@ body {
 }
 
 .card__email label {
+    font-size: calc(16 / 1440 * 100vw);
     font-weight: 700;
     position: absolute;
     opacity: 1;
@@ -156,7 +157,7 @@ body {
     left: calc(45 / 1440 * 100vw);
     width: calc(510 / 1440 * 100vw);
     height: calc(49 / 1440 * 100vw);
-    border: 2px solid #787878;
+    border: calc(2 / 1440 * 100vw) solid #787878;
     padding-left: calc(15 / 1440 * 100vw);
 }
 
@@ -180,6 +181,7 @@ body {
 }
 
 .card__password label {
+    font-size: calc(16 / 1440 * 100vw);
     font-weight: 700;
     position: absolute;
     left: calc(8 / 1440 * 100vw);
@@ -296,7 +298,7 @@ body {
         width: calc(510 / 768 * 100vw);
         left: calc(45 / 768 * 100vw);
         height: calc(49 / 768 * 100vw);
-        border: 2px solid rgba(120, 120, 120, 1);
+        border: calc(2 / 1440 * 100vw) solid #787878;
         padding-left: calc(15 / 768* 100vw);
       }
 
@@ -318,7 +320,7 @@ body {
         opacity: 1;
         transition: 0.15s;
         caret-color: transparent;
-        left: calc(0 / 768 * 100vw);
+        left: calc(9 / 768 * 100vw);
         top: calc(-19 / 768 * 100vw);
         color: rgba(120, 120, 120, 1);
       }
@@ -330,7 +332,7 @@ body {
         left: calc(45 / 768 * 100vw);
         width: calc(510 / 768 * 100vw);
         height: calc(49 / 768 * 100vw);
-        border: 2px solid #787878;
+        border: calc(2 / 1440 * 100vw) solid #787878;
         padding-left: calc(15 / 768 * 100vw);
       }
 
@@ -349,7 +351,7 @@ body {
         font-size: calc(16 / 768 * 100vw);
         font-weight: 700;
         position: absolute;
-        left: calc(0 / 768 * 100vw);
+        left: calc(9 / 768 * 100vw);
         top: calc(-20 / 768 * 100vw);
         opacity: 1;
         transition: 0.15s;
